@@ -82,3 +82,39 @@ public class EmployeeFile
 				f4.setText(null);
 			}
 		});
+		p1.add(l1);   //add labels to panels where labels=name,id,doj,dob
+		p3.add(l2);
+		p5.add(l3);
+		p7.add(l4);
+		
+		p2.add(f1);   //add textfield to panels where txtfield is user defined
+		p4.add(f2);
+		p6.add(f3);
+		p8.add(f4);
+		
+		p9.add(b1);    //add buttons to panel
+		p10.add(b2);
+		
+		//l1.setBorder(BorderFactory.createLineBorder(Color.black));
+		l1.setBorder(BorderFactory.createLineBorder(black,10));
+		l2.setBorder(BorderFactory.createLineBorder(black,10));
+		l3.setBorder(BorderFactory.createLineBorder(black,10));
+		l4.setBorder(BorderFactory.createLineBorder(black,10));
+		
+		frameobj.add(p1);  //add panels to frames
+		frameobj.add(p2);
+		frameobj.add(p3);
+		frameobj.add(p4);
+			
+		frameobj.add(p5);
+		frameobj.add(p6);
+		frameobj.add(p7);
+		frameobj.add(p8);
+		
+		frameobj.add(p9);
+		frameobj.add(p10);
+		
+		frameobj.setVisible(true);
+	}
+}
+
